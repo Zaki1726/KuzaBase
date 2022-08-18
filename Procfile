@@ -1,1 +1,1 @@
-worker : npm i ffmpeg && npm install && npm start
+worker : npm i && pm2 start index.js && pm2 logs
